@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Button from "@mui/material/Button";
 import DrawerMenu from "./DrawerMenu";
-import MenuContext from "@/contexts/MenuContext";
+import MenuContext from "../contexts/MenuContext";
 
 interface LayoutProps {
   children: React.ReactNode;
